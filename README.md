@@ -69,3 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 # React-Portfolio-Build
 A simple React template to build your portfolio website. Font Awesome, Google Fonts, uiGradients, and React-MDL were used to create this project. 
+
+## To 🏃🏻‍♂️ in development mode
+### `yarn start`
