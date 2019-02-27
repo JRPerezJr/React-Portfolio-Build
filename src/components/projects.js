@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, } from 'react-mdl';
 export default class Projects extends Component {
   constructor(props) {
     super(props);
@@ -199,9 +199,10 @@ export default class Projects extends Component {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum hendrerit justo. Sed felis elit, posuere nec mi euismod, scelerisque iaculis nibh. Sed eu leo scelerisque, pellentesque mauris id, venenatis enim. Suspendisse a diam ut turpis ultrices viverra.
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
+            <Button colored>GitHub <i className="fab fa-github-square"></i></Button>
+            <Button colored>CodePen <i className="fab fa-codepen" aria-hidden="true"></i></Button>
+            <Button colored>LiveDemo <i className="fa fa-youtube-square"></i></Button>
+            
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
